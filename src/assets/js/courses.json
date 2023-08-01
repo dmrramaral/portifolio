@@ -1,0 +1,80 @@
+{
+    "id": 793969,
+    "courseProgresses": [
+    {
+    "slug": "angular-explorando-framework",
+    "finished": false,
+    "name": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD",
+    "lastAccessTime": 1687891557000,
+    "id": 2438,
+    "progress": 64,
+    "readyToFinish": true
+    },
+    {
+    "slug": "java-spring-primeira-aplicacao-web",
+    "finished": false,
+    "name": "Java e Spring: desenvolva sua primeira aplicação Web",
+    "lastAccessTime": 1686958588000,
+    "id": 3087,
+    "progress": 1,
+    "readyToFinish": false
+    },
+    {
+    "slug": "servlets-fundamentos-programacao-web-java",
+    "finished": false,
+    "name": "Java Servlet: programação web Java",
+    "lastAccessTime": 1686958490000,
+    "id": 986,
+    "progress": 9,
+    "readyToFinish": false
+    },
+    {
+    "slug": "solid-orientacao-objetos-java",
+    "finished": false,
+    "name": "SOLID com Java: princípios da programação orientada a objetos",
+    "lastAccessTime": 1685226760000,
+    "id": 2051,
+    "progress": 48,
+    "readyToFinish": false
+    },
+    {
+    "slug": "css-construindo-layouts-grid",
+    "finished": false,
+    "name": "CSS: construindo layouts com Grid",
+    "lastAccessTime": 1682779062000,
+    "id": 2589,
+    "progress": 13,
+    "readyToFinish": false
+    }
+    ],
+    "guides": [
+    {
+    "id": 142135,
+    "code": "arquitetura-design-projetos-java",
+    "name": "Aprofunde em Java com arquitetura e padrões de projeto",
+    "url": "/formacao-arquitetura-design-projetos-java",
+    "lastAccessTime": 1685226760000,
+    "kind": "DEGREE",
+    "totalCourses": 8,
+    "finishedCourses": 1,
+    "totalSteps": 15,
+    "finishedSteps": 3,
+    "color": "#57c478",
+    "author": ""
+    },
+    {
+    "id": 185411,
+    "code": "dev-backend-java-jr-rodrigo-ferreira-1625793314937",
+    "name": "Dev Backend Java Jr.",
+    "url": "/dev-backend-java-jr-rodrigo-ferreira-1625793314937-p185411",
+    "lastAccessTime": 1686958490000,
+    "kind": "USER_GUIDE",
+    "totalCourses": 30,
+    "finishedCourses": 7,
+    "totalSteps": 25,
+    "finishedSteps": 5,
+    "color": "#1dc188",
+    "author": "Rodrigo Ferreira"
+    }
+    ]
+    }
