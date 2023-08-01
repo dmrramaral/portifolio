@@ -1,6 +1,6 @@
 {
     "/api": {
-      "target": "https://cursos.alura.com.br/api/dashboard/",
+      "target": "https://cursos.alura.com.br/api",
       "secure": false,
       "changeOrigin": true,
       "logLevel": "debug",
