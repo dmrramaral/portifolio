@@ -1,0 +1,73 @@
+[
+  {
+    "company": "Exército Brasileiro",
+    "logo": "Logo da empresa Exército Brasileiro",
+    "position": "Analista de dados",
+    "duration": "dez de 2021 - o momento · 1 ano 8 meses",
+    "location": "Brasília, Distrito Federal, Brasil",
+    "responsibilities": [
+      "Gerenciar dados",
+      "Criar planilha para acompanhamento da execução orçamentária",
+      "Operador de sistemas de crédito"
+    ],
+    "skills": [
+      "Desenvolvimento de front-end",
+      "Java",
+      "Integração e entrega contínuas (CI/CD)",
+      "HTML",
+      "Bootstrap",
+      "Git",
+      "CSS",
+      "HTML5",
+      "GitLab",
+      "Spring Boot"
+    ]
+  },
+  {
+    "company": "Exército Brasileiro",
+    "logo": "Logo da empresa Exército Brasileiro",
+    "position": "Desenvolvedor full stack",
+    "duration": "fev de 2021 - dez de 2021 · 11 meses",
+    "location": "Brasília, Distrito Federal, Brasil",
+    "responsibilities": [
+      "Desenvolvimento do Sistema de Cadastro e Inscrição de processo seletivo do Exercito Brasileiro utilizando: Java, Spring Boot, JPA, Angular, TS e Bootstrap."
+    ],
+    "skills": [
+      "Desenvolvimento de front-end",
+      "Java",
+      "Integração e entrega contínuas (CI/CD)",
+      "HTML",
+      "Bootstrap",
+      "Git",
+      "CSS",
+      "HTML5",
+      "GitLab",
+      "Spring Boot"
+    ]
+  },
+  {
+    "company": "Exército Brasileiro",
+    "position": "Analista de dados",
+    "duration": "fev de 2020 - jan de 2021 · 1 ano",
+    "location": "Brasília, Distrito Federal, Brasil",
+    "responsibilities": [
+      "Atuando no Centro de Coordenação de Operação de Saúde",
+      "Controle de casos Covid no EB em Excel",
+      "Criação de tabelas e gráficos de impacto de casos no Brasil em Excel"
+    ],
+    "skills": ["Banco de dados", "Planilha eletrônica", "Microsoft Excel"]
+  },
+  {
+    "company": "Exército Brasileiro",
+    "position": "Especialista em suporte de TI",
+    "duration": "mar de 2016 - jan de 2020 · 3 anos 11 meses",
+    "location": "Brasília, Distrito Federal, Brasil",
+    "responsibilities": [
+      "Suporte a usuário",
+      "Instalação de Software",
+      "Implantação de GLPI",
+      "Manutenção de Computadores e rede cabeada"
+    ],
+    "skills": ["Hardware", "Manutenção de computadores", "Instalação de software"]
+  }
+]

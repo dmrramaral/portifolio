@@ -1,0 +1,38 @@
+import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { APIResponse } from '../../../model/APIResponse';
+import { HomeService } from './home.service';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent {
+  apiResponse: APIResponse | undefined;
+  isLoading = true;
+
+  constructor(private homeService: HomeService) {
+
+
+  }
+
+  ngOnInit() {
+    this.fetchDataFromApi();
+  }
+
+  fetchDataFromApi() {
+    this.homeService.getApiData().subscribe(
+      (data: APIResponse) => {
+        this.apiResponse = data;
+        this.isLoading = false;
+        // Associar os cursos a cada guia
+        this.apiResponse.guides = this.homeService.associateCoursesToGuides(data.guides, data.courseProgresses);
+      },
+      (error) => {
+        console.error('Erro ao obter dados da API:', error);
+        this.isLoading = false;
+      }
+    );
+  }
+}

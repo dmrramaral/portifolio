@@ -1,0 +1,11 @@
+{
+    "/api": {
+      "target": "https://cursos.alura.com.br/api/dashboard/",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }

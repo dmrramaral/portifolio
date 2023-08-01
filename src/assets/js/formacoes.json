@@ -1,0 +1,22 @@
+[
+    {
+        "company": "Universidade Cruzeiro do Sul",
+        "logo": "Logo da empresa Universidade Cruzeiro do Sul",
+        "course": "Curso Superior de Tecnologia (CST), Análise e Desenvolvimento de Sistemas",
+        "duration": "fev de 2021 - dez de 2022",
+        "competencies": [
+            "Java",
+            "HTML",
+            "SQL",
+            "CSS",
+            "HTML5"
+        ]
+    },
+    {
+        "company": "Senac Brasil",
+        "logo": "Logo da empresa Senac Brasil",
+        "course": "Ensino Técnico, Técnico de Informática",
+        "duration": "2014 - 2016",
+        "competencies": []
+    }
+]

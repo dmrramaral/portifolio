@@ -1,0 +1,53 @@
+<div *ngIf="isLoading; else content">
+    <!-- Mostrar um spinner ou mensagem de carregamento -->
+    <p>Carregando dados...</p>
+</div>
+
+<ng-template  #content>
+    <div class="m-3" *ngIf="apiResponse">
+        <h5>Progresso dos cursos:</h5>
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-wrap">
+                    <!-- Loop para cada course progress -->
+                    <div class="col-md-4 col-sm-12 col-12" *ngFor="let course of apiResponse.courseProgresses">
+                        <div class="card me-3 mb-1">
+                            <div class="card-body">
+                                <h6 class="card-title">{{ course.name }}</h6>
+                                <p class="card-text">Progresso: {{ course.progress }}%</p>
+                                <a href="#" class="btn btn-primary">Link Para acessar o curso</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <h5>Guias:</h5>
+        <div class="row">
+            <div class="col-md-4" *ngFor="let guide of apiResponse.guides">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ guide.name }}</h5>
+                        <p class="card-text">Total de cursos: {{ guide.totalSteps }}</p>
+                        <p class="card-text">Concluidos: {{ guide.finishedCourses }}</p>
+                        <ul>
+                            <li *ngFor="let course of guide.courses">
+                                {{ course.name }} - Progresso: {{ course.progress }}%
+                            </li>
+                        </ul>
+                        <a href="https://www.alura.com.br{{ guide.url }}" class="btn btn-primary">Acessar a guia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="!apiResponse">
+        <!-- Exibir mensagem de erro caso não seja possível obter os dados da API -->
+        <p>Estou consumindo uma API da Alura, ela deve estar fora, vou resolver assim que perceber kkkk.</p>
+    </div>
+</ng-template>

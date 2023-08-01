@@ -1,0 +1,35 @@
+<!-- experiencias.component.html -->
+
+<div class="container">
+    <h2>Minhas Experiências</h2>
+    <div *ngIf="isLoading; else content">
+      <!-- Se os dados ainda estão sendo carregados, exibir uma mensagem de carregamento -->
+      <p>Carregando...</p>
+    </div>
+  
+    <ng-template #content>
+      <!-- Se os dados já foram carregados, exibir as experiências em cards -->
+      <div *ngIf="experience" class="row">
+        <div class="col-md-3 mb-3" *ngFor="let exp of experience ">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">{{ exp.company }}</h5>
+              <p class="card-text">{{ exp.position }}</p>
+              <p class="card-text">{{ exp.duration }}</p>
+              <p class="card-text">{{ exp.location }}</p>
+              <h6 class="card-subtitle mb-2">Responsibilities:</h6>
+              <ul>
+                <li *ngFor="let resp of exp.responsibilities">{{ resp }}</li>
+              </ul>
+              <h6 class="card-subtitle mb-2">Skills:</h6>
+              <ul>
+                <li *ngFor="let skill of exp.skills">{{ skill }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+  

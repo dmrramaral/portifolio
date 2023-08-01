@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Define que a caixa do elemento inclui as bordas e o preenchimento */
+}
+
+
+
+a {
+    color: #000;
+    /* Escolha a cor desejada, aqui é preto (#000) como exemplo */
+    text-decoration: none;
+    /* Remove a decoração de sublinhado */
+}
+
+a:hover {
+    color: #000ed4;
+    /* Escolha a cor desejada, aqui é preto (#000) como exemplo */
+    text-decoration: none;
+    /* Remove a decoração de sublinhado */
+}
