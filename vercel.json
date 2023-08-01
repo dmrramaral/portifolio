@@ -1,0 +1,14 @@
+{
+
+    "buildCommand": "npm run build",
+    "routes":[
+        {
+            "src":"^/api/(.*)$",
+            "dest":"https://cursos.alura.com.br/api/dashboard/"
+        }
+
+
+
+
+    ]
+}
