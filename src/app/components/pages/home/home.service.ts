@@ -17,7 +17,7 @@ export class HomeService {
   private apiJsonExperiencia = '/assets/js/experiencia.json';
   private apiJsonFormacoes = '/assets/js/formacoes.json';
 
-  private apiAlura = '/api/dashboard/187fc9f947baa0dce27fc8cb53ee7388f1728df4d98b2bc6bd558b12ad4d40a4';
+  private apiAlura = 'https://cursos.alura.com.br/api/dashboard/187fc9f947baa0dce27fc8cb53ee7388f1728df4d98b2bc6bd558b12ad4d40a4';
 
 
   constructor(private httpClient : HttpClient) { }
